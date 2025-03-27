@@ -4,7 +4,7 @@ backend/venv/
 backend/__pycache__/
 
 # Ignore Node.js dependencies
-frontend/app/node_modules/
+# frontend/app/node_modules/
 
 # Ignore Python compiled files
 *.pyc
@@ -14,7 +14,7 @@ __pycache__/
 
 # Ignore package manager lock files (optional)
 backend/requirements.txt.lock
-frontend/package-lock.json
+# frontend/package-lock.json
 
 # Ignore environment and configuration files
 .env

@@ -3,7 +3,7 @@ FROM node
 WORKDIR /app
 
 # Copy package files
-COPY app/package.json app/package-lock.json .
+COPY app/package.json app/tsconfig.json app/tsconfig.node.json app/tsconfig.app.json .
 
 # Install dependencies
 RUN npm install

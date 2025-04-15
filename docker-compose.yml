@@ -9,8 +9,8 @@ services:
       - ./backend:/app
     depends_on:
       - mysql
-    env_file:
-      - .env
+    # env_file:
+    #   - .env
     networks:
       - app-network
 
